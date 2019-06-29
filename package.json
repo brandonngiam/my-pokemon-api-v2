@@ -1,0 +1,36 @@
+{
+  "name": "my-pokemon-api-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonngiam/my-pokemon-api-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonngiam/my-pokemon-api-v2/issues"
+  },
+  "homepage": "https://github.com/brandonngiam/my-pokemon-api-v2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "flat": "^4.1.0",
+    "mongoose": "^5.6.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.0.1",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "preset": "@shelf/jest-mongodb"
+  }
+}
