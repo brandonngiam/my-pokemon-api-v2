@@ -20,6 +20,7 @@ describe("Pokemon route", () => {
   afterAll(async () => {
     await mongoose.disconnect();
     await connection.close();
+    await db.close();
   });
 
   beforeEach(async () => {
