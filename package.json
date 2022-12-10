@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/brandonngiam/my-pokemon-api-v2#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "flat": "^4.1.0",
     "mongoose": "^5.6.1",
     "nodemon": "^1.19.1"
